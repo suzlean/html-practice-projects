@@ -1,0 +1,44 @@
+/* background color*/
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    flex-direction: column;
+  }
+  
+  .button-wrapper {
+    text-align: center;
+  }
+
+#colorcode {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #6e6d70;
+    color: white;
+    border: 2px;
+    border-color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #fceb01;
+  }
+  
