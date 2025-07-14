@@ -1,0 +1,129 @@
+/* profile card*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #dacbcbf6;
+    font-family: 'calibri', sans-serif;
+    height: 100vh;
+  }
+
+/* ensure the flex container is a vertical column*/
+.page-wrapper {
+    display: flex;
+    flex-direction: column; /* stack children vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Title */
+.title {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+  }
+
+
+  /* Card container */
+.card {
+    background-color: #e9d6c6;
+    width: 350px;
+    padding: 50px 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+  }
+
+/* Profile section */
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .login {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #444;
+  }
+  
+  .description {
+    color: #777;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+
+  /* Invisible table layout */
+.info-table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .info-table td {
+    border: none;
+    padding: 6px 0;
+    color: #444;
+  }
+
+
+
+  /* Social icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Contact button */
+  .contact-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: #f85ff0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #9f31ad;
+  }
