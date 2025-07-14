@@ -1,0 +1,57 @@
+/* parallax.css*/
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url('https://imgs.xkcd.com/comics/code_quality.png');  
+    min-height: 100%;
+    background-size: contain;
+}
+    
+.bgimg-2 {
+    background-image: none;
+    background-color: #000;
+    min-height: 200px;
+}
+
+.bgimg-3 {
+    background-image: url('https://d.newsweek.com/en/full/2564499/live-cat-computer-shell.jpg'); 
+    min-height: 100%;
+    
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
