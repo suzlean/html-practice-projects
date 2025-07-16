@@ -1,6 +1,8 @@
 # html-practice-projects
 Archive area for my practice projects in html, css, js etc.
 
+With extensive comments to serve as notes and future references. 
+
 Feel free to gain inspiration and create your own!
 
 ## Project List
